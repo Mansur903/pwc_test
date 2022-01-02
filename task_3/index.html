@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/style.css">
+  <title>Пользователи</title>
+</head>
+<body class="page">
+  <div class="page__content">
+    <header class="header">
+      <img class="logo logo_place_header" src="./images/pwc_logo.png" alt="pwc_logo">
+    </header>
+    <main class="content">
+      <section class="lead">
+        <h1 class="lead__title">Тестовое задание</h1>
+      </section>
+      <section class="add-person">
+        <form class="form">
+          <div class="api">
+            <p class="api__url">https://reqres.in/api/users/</p>
+            <input class="api__input" type="number" name="t" value="3" step="1">
+          </div>
+          <p class="message"></p>
+          <button class="form__button" type="submit">Добавить карточку</button>
+        </form>
+      </section>
+      <section class="cards">
+        <ul class="cards-list">
+        </ul>
+      </section>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
